@@ -25,8 +25,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_dir ../Data/ --log_dir ../logs/ -c 
 To evaluate separately:
 ```
 CUDA_VISIBLE_DEVICES=4 python linear_eval.py --data_dir ../Data/ --log_dir ../logs/ -c configs/simsiam_cifar_eval.yaml --ckpt_dir ~/.cache/ --hide_progress --eval_from ~/simsiam-cifar10-experiment-resnet18_cifar_variant1.pth
-
-creating file ../logs/in-progress_0111061045_simsiam-cifar10-experiment-resnet18_cifar_variant1
-Evaluating: 100%|##########################################################################################################| 200/200 [16:52<00:00,  5.06s/it]
-Accuracy = 90.87
 ```
